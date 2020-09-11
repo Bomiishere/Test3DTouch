@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		ED868F6F2507278F005BF1A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED868F6E2507278F005BF1A8 /* AppDelegate.swift */; };
-		ED868F712507278F005BF1A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED868F702507278F005BF1A8 /* SceneDelegate.swift */; };
-		ED868F732507278F005BF1A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED868F722507278F005BF1A8 /* ViewController.swift */; };
+		ED868F732507278F005BF1A8 /* ForceTouchGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED868F722507278F005BF1A8 /* ForceTouchGestureViewController.swift */; };
 		ED868F762507278F005BF1A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED868F742507278F005BF1A8 /* Main.storyboard */; };
 		ED868F7825072794005BF1A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED868F7725072794005BF1A8 /* Assets.xcassets */; };
 		ED868F7B25072794005BF1A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED868F7925072794005BF1A8 /* LaunchScreen.storyboard */; };
+		ED868F8325072F46005BF1A8 /* ForceTouchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED868F8225072F46005BF1A8 /* ForceTouchGestureRecognizer.swift */; };
+		ED868F852507639B005BF1A8 /* TouchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED868F842507639B005BF1A8 /* TouchesViewController.swift */; };
+		ED868F8A25087A8B005BF1A8 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED868F8925087A8B005BF1A8 /* PreviewViewController.swift */; };
+		ED868F8C25087AA4005BF1A8 /* Previewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED868F8B25087AA4005BF1A8 /* Previewable.swift */; };
+		ED868F8E25087E31005BF1A8 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED868F8D25087E31005BF1A8 /* DisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED868F6B2507278F005BF1A8 /* Test3DTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test3DTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED868F6E2507278F005BF1A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED868F702507278F005BF1A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED868F722507278F005BF1A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED868F722507278F005BF1A8 /* ForceTouchGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchGestureViewController.swift; sourceTree = "<group>"; };
 		ED868F752507278F005BF1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED868F7725072794005BF1A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED868F7A25072794005BF1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED868F7C25072794005BF1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED868F8225072F46005BF1A8 /* ForceTouchGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchGestureRecognizer.swift; sourceTree = "<group>"; };
+		ED868F842507639B005BF1A8 /* TouchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchesViewController.swift; sourceTree = "<group>"; };
+		ED868F8925087A8B005BF1A8 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		ED868F8B25087AA4005BF1A8 /* Previewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previewable.swift; sourceTree = "<group>"; };
+		ED868F8D25087E31005BF1A8 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		ED868F6D2507278F005BF1A8 /* Test3DTouch */ = {
 			isa = PBXGroup;
 			children = (
+				ED868F8825087A76005BF1A8 /* PreviewViewController */,
+				ED868F8725087A66005BF1A8 /* Touches */,
+				ED868F8625087A56005BF1A8 /* ForceTouchGesture */,
 				ED868F6E2507278F005BF1A8 /* AppDelegate.swift */,
-				ED868F702507278F005BF1A8 /* SceneDelegate.swift */,
-				ED868F722507278F005BF1A8 /* ViewController.swift */,
 				ED868F742507278F005BF1A8 /* Main.storyboard */,
 				ED868F7725072794005BF1A8 /* Assets.xcassets */,
 				ED868F7925072794005BF1A8 /* LaunchScreen.storyboard */,
 				ED868F7C25072794005BF1A8 /* Info.plist */,
 			);
 			path = Test3DTouch;
+			sourceTree = "<group>";
+		};
+		ED868F8625087A56005BF1A8 /* ForceTouchGesture */ = {
+			isa = PBXGroup;
+			children = (
+				ED868F722507278F005BF1A8 /* ForceTouchGestureViewController.swift */,
+				ED868F8225072F46005BF1A8 /* ForceTouchGestureRecognizer.swift */,
+			);
+			path = ForceTouchGesture;
+			sourceTree = "<group>";
+		};
+		ED868F8725087A66005BF1A8 /* Touches */ = {
+			isa = PBXGroup;
+			children = (
+				ED868F842507639B005BF1A8 /* TouchesViewController.swift */,
+			);
+			path = Touches;
+			sourceTree = "<group>";
+		};
+		ED868F8825087A76005BF1A8 /* PreviewViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED868F8925087A8B005BF1A8 /* PreviewViewController.swift */,
+				ED868F8B25087AA4005BF1A8 /* Previewable.swift */,
+				ED868F8D25087E31005BF1A8 /* DisplayViewController.swift */,
+			);
+			path = PreviewViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED868F732507278F005BF1A8 /* ViewController.swift in Sources */,
+				ED868F732507278F005BF1A8 /* ForceTouchGestureViewController.swift in Sources */,
+				ED868F8E25087E31005BF1A8 /* DisplayViewController.swift in Sources */,
+				ED868F8325072F46005BF1A8 /* ForceTouchGestureRecognizer.swift in Sources */,
+				ED868F8C25087AA4005BF1A8 /* Previewable.swift in Sources */,
+				ED868F852507639B005BF1A8 /* TouchesViewController.swift in Sources */,
+				ED868F8A25087A8B005BF1A8 /* PreviewViewController.swift in Sources */,
 				ED868F6F2507278F005BF1A8 /* AppDelegate.swift in Sources */,
-				ED868F712507278F005BF1A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6YAQPHV6J7;
 				INFOPLIST_FILE = Test3DTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +346,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6YAQPHV6J7;
 				INFOPLIST_FILE = Test3DTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
